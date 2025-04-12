@@ -1,0 +1,101 @@
+
+
+@font-face {
+    font-family: 'fonteTitulo';
+    src:url('fontes/Fonte1.ttf');
+    format:(truetype);
+}
+
+@font-face {
+    font-family: 'fonteTitulo2';
+    src:url('fontes/Fonte2.otf');
+    format:(truetype);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Mr+Dafoe&display=swap');
+
+.mr-dafoe-regular {
+    font-family: "Mr Dafoe", cursive;
+    font-weight: 800;
+    font-style: normal;
+  }
+
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&display=swap');
+
+.playwrite-cu-uniquifier {
+    font-family: "Playwrite CU", cursive;
+    font-weight: 200;
+    font-optical-sizing: auto;
+  }
+.rosa1
+{ 
+    color: #26010B; 
+}
+.rosa2
+{ 
+    color: #BF045B; 
+}
+.roxo
+{ 
+    color: #59023B; 
+}
+.rosa3
+{ 
+    color: #BF3F92; 
+}
+.rosa4
+{ 
+    color: #F28DCF; 
+}
+* {
+    margin: 0;
+}
+header {
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+#titulo {
+    margin-left: -440px;
+}
+#menu {
+    display: flex;
+    margin-left: 420px;
+    gap: 20px;
+    font-size: 20px;
+}
+a {
+    text-decoration: none;
+    color: #F28DCF;
+    padding-top: 0;
+}
+a:hover {
+    text-decoration: dashed;
+    color: #BF3F92;
+    padding: 5px;
+    animation-delay: 1s;
+}
+
+#Recepcao {
+    background-image: url(images/fundo.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center bottom;
+    width: 100%;
+    height: 700px;
+    text-align: center;
+}
+
+#menu2 {
+    font-size: 30px;
+    padding-top: 250px;
+}
+
+#historia {
+    height: 500px;
+}
