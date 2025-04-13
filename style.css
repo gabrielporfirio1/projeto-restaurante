@@ -98,6 +98,7 @@ a:hover {
     height: 700px;
     text-align: center;
     box-shadow: 1px 2px 1px black;
+    color: black;
 }
 
 #menu2 {
@@ -151,4 +152,29 @@ a:hover {
     border-radius: 5px;
     border: solid white 1px;
     box-shadow: 1px 1px 1px white;
+}
+
+.cardapioEntradas {
+    height: auto;
+    background-color: rgb(49, 49, 49);
+    text-align: center;
+    color: white;
+    padding-bottom: 700px;
+    padding-top: 100px;
+}
+
+#fotosLaterais3 {
+    display: flex;
+    margin-left: 80px;
+    width: 550px;
+    height: 550px;
+    border-radius: 5px;
+    border: solid white 1px;
+    box-shadow: 1px 1px 1px white;
+}
+
+#entradasTexto {
+    margin-top: -500px;
+    margin-left: 750px;
+    text-align: left;
 }
